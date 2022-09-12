@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Krittitees-MacBook-Pro.local" name="RationalTest" skipped="0" tests="7" time="0.049" timestamp="2022-09-12T08:54:40">
+  <properties>
+    <property name="gopherProxySet" value="false" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.base:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.compiler:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.datatransfer:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.desktop:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.instrument:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.logging:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.management:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.management.rmi:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.naming:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.net.http:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.prefs:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.rmi:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.scripting:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.se:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.security.jgss:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.security.sasl:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.smartcardio:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.sql:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.sql.rowset:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.transaction.xa:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.xml:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.xml.crypto:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.accessibility:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.aot:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.attach:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.charsets:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.compiler:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.crypto.cryptoki:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.crypto.ec:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.dynalink:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.editpad:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.hotspot.agent:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.httpserver:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.ed:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.jvmstat:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.le:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.opt:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.ci:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.compiler:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.compiler.management:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jartool:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.javadoc:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jcmd:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jconsole:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdeps:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdi:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdwp.agent:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jfr:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jlink:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jshell:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jsobject:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jstatd:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.localedata:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management.agent:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management.jfr:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.dns:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.ldap:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.rmi:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.net:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.pack:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.rmic:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.scripting.nashorn:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.scripting.nashorn.shell:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.sctp:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.security.auth:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.security.jgss:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.unsupported:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.unsupported.desktop:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.xml.dom:/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.zipfs:/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Amazon.com Inc." />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="TH" />
+    <property name="sun.boot.library.path" value="/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/boat/Documents/GitHub/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/boat" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-08-12" />
+    <property name="java.home" value="/Users/boat/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home" />
+    <property name="basedir" value="/Users/boat/Documents/GitHub/Rational" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="11.0.16.1+9-LTS" />
+    <property name="user.name" value="boat" />
+    <property name="ant.file" value="/Users/boat/Documents/GitHub/Rational/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="10.13.6" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="Corretto-11.0.16.9.1" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/" />
+    <property name="java.io.tmpdir" value="/var/folders/v1/dfn_ml8d04356qmrxcnlnrq40000gn/T/" />
+    <property name="java.version" value="11.0.16.1" />
+    <property name="user.dir" value="/Users/boat/Documents/GitHub/Rational" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="/Users/boat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Amazon.com Inc." />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.16.1+9-LTS" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="java.class.version" value="55.0" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.004" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.009" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.001" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

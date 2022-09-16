@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RationalTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-09-12T09:05:20" hostname="Krittitees-MacBook-Pro.local" time="0.035">
+<testsuite name="RationalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-16T18:47:20" hostname="Krittitees-MacBook-Pro.local" time="0.018">
   <properties/>
-  <testcase name="testAdd" classname="RationalTest" time="0.005"/>
-  <testcase name="testSubtract" classname="RationalTest" time="0.001"/>
-  <testcase name="testToString" classname="RationalTest" time="0.023"/>
-  <testcase name="testCompareTo" classname="RationalTest" time="0.001"/>
-  <testcase name="testDivide" classname="RationalTest" time="0.001"/>
-  <testcase name="testEquals" classname="RationalTest" time="0.0"/>
-  <testcase name="testMultiply" classname="RationalTest" time="0.001"/>
+  <testcase name="testToString" classname="RationalTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

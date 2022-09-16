@@ -81,6 +81,6 @@ public class RationalTest {
         Rational x = new Rational();
         x.numerator = 1;
         x.denominator = 3;
-        x.toString();
+        Assert.assertEquals("1/3", x.toString());
     }
 }
